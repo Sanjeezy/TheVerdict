@@ -1,0 +1,226 @@
+/************************************************ 
+	AppX / Vybe Main Stylesheet
+	Edited: Feb 22, 2017
+*************************************************/
+
+
+
+body {
+	font-family: 'Raleway', serif;
+	background-color: #FDFEFE; /* A light grey / white color */
+	background-size: cover;
+}
+
+/************************************************ 
+	Navbar
+*************************************************/
+
+.navbar {
+	background-color: #8E44AD; /* a purple color */
+	color: #8E44AD;
+}
+
+.navbar_container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.navbar a {
+	text-decoration: none;
+}
+
+.toggle {
+
+}
+
+.toggle span {
+
+}
+
+.main_title {
+	width: 15%;
+	float: left;
+}
+
+.main_title h1 {
+	font-family: 'Helvetica Neue';
+	color: #FDFEFE;
+}
+
+.links {
+	width: 85%;
+	float: left;
+}
+
+.links ul {
+	float: right;
+}
+
+.links ul li {
+	display: inline-block;
+}
+
+.links ul li a {
+	font-family: 'Helvetica Neue';
+	color: #FDFEFE;
+}
+
+
+.clearfix {
+	clear: both;
+}
+
+#overallWrapper {
+	width: 310px;
+	height: 500px;
+	border:  #8E44AD solid 9px;
+	margin: 0 auto;
+	margin-top: 15px;
+	overflow-y:scroll;
+}
+
+.loading {
+	font-size: 12px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+
+.card {
+	height: 150px;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 10px;
+	color: black;
+	background-color: white;
+	opacity: 0.75;
+	border-bottom: #8E44AD solid 1px;
+
+}
+
+.card:hover {
+	background-color: #F7F9F9; /* a darker white color */
+}
+
+.title {
+	margin-left: 5px;
+	font-weight: 700;
+}
+
+.category {
+	margin-left: 5px;
+	font-size: .75em;
+	margin-top: 5px;
+	float: left;
+	position: relative;
+	display: block;
+}
+
+.image {
+	height: 100px;
+	max-width: 100px;
+	float: right;
+	margin-right: 5px;
+}
+
+.image img {
+	height: 100px;
+	max-width: 100px;
+	float: right;
+	margin-top: 5px;
+	border-radius: 10%;
+}
+
+.desc {
+	display: block;
+	position: relative;
+	float: left;
+	width: 190px;
+}
+
+.upvoteCount {
+	
+}
+
+.modal {
+	display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 11111111; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.modal-content h3 {
+	display: inline-block;
+	font-size: 40px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.modal_appIcon {
+	display: inline-block;
+}
+
+.modal_appIcon img {
+	height: 100px;
+	max-width: 100px;
+	border-radius: 10%;
+}
+
+.modal_appLineDivider {
+	border-top: 1px solid #8E44AD;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.loading {
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite
+}
+
+/************************************************ 
+	Media Queries
+*************************************************/
+
+
+@media(max-width: 750px) {
+	.toggle {
+		display: block;
+	}
+	.links {
+		display: none;
+	}
+	.links ul li {
+		display: block;
+		text-align: center;
+		padding: 10px;
+	}
+	.links ul {
+		float: none;
+	}
+	.main_title {
+		padding-top: 10px;
+	}
+} 
+
+
+

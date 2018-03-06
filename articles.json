@@ -1,0 +1,37 @@
+{
+    "items":[
+        {
+            "appName": "Uber",
+            "appDescription": "the premier ridesharing-app.",
+            "appReview": "Sleek design, fast service. Cheaper fares than the competitor.",
+            "category": "transportation",
+            "imgURL": "https://i.imgur.com/lwiEMWJ.jpg",
+            "appScreenshot": "tempUrl.jpg",
+            "iosLink": "iosLink",
+            "androidLink": "androidLink",
+            "__v": 0
+        },
+        {
+            "appName": "Spotify",
+            "appDescription": "All music. At your fingertips.",
+            "appReview": "Spotify continues to creep into the most used daily apps by everyone, while keeping no trail or indication that its there.",
+            "category": "transportation",
+            "imgURL": "https://i.imgur.com/lwiEMWJ.jpg",
+            "appScreenshot": "tempUrl.jpg",
+            "iosLink": "iosLink",
+            "androidLink": "androidLink",
+            "__v": 0
+        },
+        {
+            "appName": "Snapchat",
+            "appDescription": "The social media app that everyones been talking about",
+            "appReview": "Lifes more fun when you live in the moment :) Happy Snapping!",
+            "category": "Social",
+            "imgURL": "https://i.imgur.com/lwiEMWJ.jpg",
+            "appScreenshot": "tempUrl.jpg",
+            "iosLink": "iosLink",
+            "androidLink": "androidLink",
+            "__v": 0
+        }
+    ]
+}
